@@ -7,8 +7,7 @@ export function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              //src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-              src="/assets/about_section.png"
+              src="/about_section.png"
               alt="Professional data engineer workspace" 
               className="rounded-xl shadow-lg w-full h-auto" 
             />
