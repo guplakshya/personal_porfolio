@@ -29,8 +29,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Lakshya Porwal</h3>
             <p className="text-gray-400 mb-4">
-              Senior Data Engineer passionate about building scalable data solutions 
-              and transforming data into actionable insights.
+              Senior Data Engineer focused on bridging the gap between data chaos and business clarity.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -43,7 +42,7 @@ export function Footer() {
                 <Linkedin className="text-xl" />
               </a>
               <a 
-                href="https://github.com/lakshya-porwal" 
+                href="https://github.com/guplakshya" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -52,7 +51,7 @@ export function Footer() {
                 <Github className="text-xl" />
               </a>
               <a 
-                href="mailto:lakshya.porwal@example.com" 
+                href="mailto:guplakshya@gmail.com" 
                 className="text-gray-400 hover:text-white transition-colors"
                 data-testid="footer-link-email"
               >
@@ -90,7 +89,7 @@ export function Footer() {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Lakshya Porwal. All rights reserved. Built with ❤️ and React.
+            © 2025 Lakshya Porwal. All rights reserved. Built with ❤️ and React.
           </p>
         </div>
       </div>

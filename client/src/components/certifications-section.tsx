@@ -1,50 +1,26 @@
-import { SiAmazon, SiGoogle, SiPython } from 'react-icons/si';
-import { Flame, Cloud, Wind } from 'lucide-react';
+import { SiAmazon, SiGoogle, SiPython, SiDatabricks} from 'react-icons/si';
+import { Flame, Cloud, Network } from 'lucide-react';
 
 export function CertificationsSection() {
   const certifications = [
     {
       id: 1,
-      name: 'Azure Data Engineer Associate',
-      provider: 'Microsoft',
-      credential: 'DP-203',
+      name: 'Databricks Certified Data Engineer',
+      provider: 'Udemy',
+      credential: 'Data Engineer',
       status: 'Active',
-      icon: <Cloud className="text-4xl text-blue-600" />,
+      icon: <SiDatabricks className="text-4xl text-red-500" />,
     },
     {
       id: 2,
-      name: 'AWS Data Analytics',
-      provider: 'Amazon Web Services',
-      credential: 'DAS-C01',
+      name: 'Neural Networks and Deep Learning',
+      provider: 'deeplearning.ai',
+      credential: 'Fundamentals',
       status: 'Active',
-      icon: <SiAmazon className="text-4xl text-orange-500" />,
+      icon: <Network className="text-4xl text-green-500" />,
     },
     {
       id: 3,
-      name: 'Databricks Certified',
-      provider: 'Databricks',
-      credential: 'Data Engineer Professional',
-      status: 'Active',
-      icon: <Flame className="text-4xl text-red-500" />,
-    },
-    {
-      id: 4,
-      name: 'Google Cloud Professional',
-      provider: 'Google Cloud',
-      credential: 'Data Engineer',
-      status: 'Active',
-      icon: <SiGoogle className="text-4xl text-blue-500" />,
-    },
-    {
-      id: 5,
-      name: 'Apache Airflow',
-      provider: 'Apache Foundation',
-      credential: 'Fundamentals',
-      status: 'Active',
-      icon: <Wind className="text-4xl text-green-500" />,
-    },
-    {
-      id: 6,
       name: 'Python for Data Science',
       provider: 'Coursera',
       credential: 'Specialization',

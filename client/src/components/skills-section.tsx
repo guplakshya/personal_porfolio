@@ -1,4 +1,4 @@
-import { Database, Flame, Box, Wind, ArrowLeftRight, Warehouse, Cloud } from 'lucide-react';
+import { Database, Flame, Box, Wind, ArrowLeftRight, Warehouse, Cloud, Factory, Github, Pyramid, Zap } from 'lucide-react';
 import { SiPython } from 'react-icons/si';
 
 export function SkillsSection() {
@@ -19,9 +19,9 @@ export function SkillsSection() {
       description: 'Big Data Processing',
     },
     {
-      icon: <Box className="text-4xl text-purple-500" />,
-      name: 'Databricks',
-      description: 'Analytics Platform',
+      icon: <Wind className="text-4xl text-green-500" />,
+      name: 'Airflow',
+      description: 'Workflow Orchestration',
     },
     {
       icon: <Cloud className="text-4xl text-blue-600" />,
@@ -29,17 +29,37 @@ export function SkillsSection() {
       description: 'Cloud Platform',
     },
     {
-      icon: <Wind className="text-4xl text-green-500" />,
-      name: 'Airflow',
-      description: 'Workflow Orchestration',
+      icon: <Box className="text-4xl text-purple-500" />,
+      name: 'Databricks',
+      description: 'Analytics Platform',
     },
     {
-      icon: <ArrowLeftRight className="text-4xl text-indigo-500" />,
+      icon: <Factory className="text-4xl text-blue-600" />,
+      name: 'Data Factory',
+      description: 'Data Pipelines',
+    },
+    {
+      icon: <Zap className="text-4xl text-indigo-500" />,
+      name: 'Event Hub',
+      description: 'Real-time Data',
+    },
+    {
+      icon: <ArrowLeftRight className="text-4xl text-yellow-500" />,
       name: 'ETL',
       description: 'Data Integration',
     },
     {
-      icon: <Warehouse className="text-4xl text-gray-600" />,
+      icon: <Github className="text-4xl text-gray-600" />,
+      name: 'Github',
+      description: 'Version Control',
+    },
+    {
+      icon: <Pyramid className="text-4xl text-pink-600" />,
+      name: 'Data Modelling',
+      description: 'Schema Design',
+    },
+    {
+      icon: <Warehouse className="text-4xl text-orange-600" />,
       name: 'Data Warehousing',
       description: 'Storage Solutions',
     },

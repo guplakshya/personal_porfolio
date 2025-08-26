@@ -48,7 +48,7 @@ export function ResumeSection() {
           data-testid="button-download-resume"
         >
           <Download className="mr-3 h-5 w-5" />
-          Download Resume (PDF)
+          Download Resume
         </Button>
       </div>
     </section>

@@ -25,9 +25,11 @@ export function HeroSection() {
             <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-gray-700 dark:text-gray-300">
               Senior Data Engineer
             </h2>
+            <h4 className="text-base md:text-lg font-medium mb-2 text-gray-600 dark:text-gray-400">
+              Turning messy, high-volume data into rock-solid systems that scale effortlessly 🚀
+            </h4>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-              Building scalable data systems that transform raw information into actionable insights. 
-              Passionate about creating robust pipelines that power data-driven decisions.
+              Thrives on building data platforms that never blink — whether it's streaming millions of events in real-time or crunching half a billion rows overnight. I don't just move data, I make it trustworthy, fast, and actionable so businesses can make decisions with confidence.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button 
@@ -50,7 +52,8 @@ export function HeroSection() {
           
           <div className="animate-fade-in">
             <img 
-              src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+              src="src/components/assets/hero_section.png"
+              //src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
               alt="Professional data engineer workspace" 
               className="rounded-xl shadow-2xl w-full h-auto" 
             />

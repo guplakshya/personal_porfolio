@@ -107,12 +107,12 @@ export function ContactSection() {
             
             <div className="space-y-6">
               <a 
-                href="mailto:lakshya.porwal@example.com" 
+                href="mailto:guplakshya@gmail.com" 
                 className="flex items-center text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                 data-testid="link-email"
               >
                 <Mail className="text-2xl mr-4" />
-                <span className="text-lg">lakshya.porwal@example.com</span>
+                <span className="text-lg">guplakshya@gmail.com</span>
               </a>
               
               <a 
@@ -127,7 +127,7 @@ export function ContactSection() {
               </a>
               
               <a 
-                href="https://github.com/lakshya-porwal" 
+                href="https://github.com/guplakshya" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"

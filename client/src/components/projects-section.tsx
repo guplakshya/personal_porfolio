@@ -10,7 +10,7 @@ export function ProjectsSection() {
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
       technologies: ['PySpark', 'Kafka', 'Azure'],
       techColors: ['bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200', 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200', 'bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200'],
-      link: 'https://github.com/lakshya-porwal',
+      link: 'https://github.com/guplakshya',
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ export function ProjectsSection() {
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
       technologies: ['Python', 'Airflow', 'Docker'],
       techColors: ['bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200', 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200', 'bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200'],
-      link: 'https://github.com/lakshya-porwal',
+      link: 'https://github.com/guplakshya',
     },
     {
       id: 3,
@@ -28,34 +28,7 @@ export function ProjectsSection() {
       image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
       technologies: ['Azure', 'SQL', 'Databricks'],
       techColors: ['bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200', 'bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200', 'bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200'],
-      link: 'https://github.com/lakshya-porwal',
-    },
-    {
-      id: 4,
-      title: 'Machine Learning Data Pipeline',
-      description: 'Built an end-to-end ML data pipeline for predictive analytics with automated model retraining.',
-      image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
-      technologies: ['Python', 'MLOps', 'Kubernetes'],
-      techColors: ['bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200', 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200', 'bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200'],
-      link: 'https://github.com/lakshya-porwal',
-    },
-    {
-      id: 5,
-      title: 'Data Quality Monitoring',
-      description: 'Implemented comprehensive data quality monitoring system with automated alerting and remediation.',
-      image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
-      technologies: ['Python', 'Great Expectations', 'Grafana'],
-      techColors: ['bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200', 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200', 'bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200'],
-      link: 'https://github.com/lakshya-porwal',
-    },
-    {
-      id: 6,
-      title: 'Streaming Data Platform',
-      description: 'Created a robust streaming data platform for real-time business intelligence and monitoring.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
-      technologies: ['Kafka', 'Spark Streaming', 'ElasticSearch'],
-      techColors: ['bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200', 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200', 'bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200'],
-      link: 'https://github.com/lakshya-porwal',
+      link: 'https://github.com/guplakshya',
     },
   ];
 
