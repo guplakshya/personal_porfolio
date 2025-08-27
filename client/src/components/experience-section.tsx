@@ -5,7 +5,7 @@ export function ExperienceSection() {
       title: 'Senior Data Engineer',
       company: 'ZS Associates',
       type: 'Full-time Role',
-      period: 'Aug 2024 - Present',
+      period: 'Jan 2024 - Present',
       description: 'Leading enterprise data engineering initiatives, architecting scalable solutions, and mentoring teams to deliver high-quality data products.',
       highlights: [
         'Architected modular Data Quality framework reducing data issues by 40% across large-scale pipelines.',
@@ -20,7 +20,7 @@ export function ExperienceSection() {
       title: 'Data Engineer',
       company: 'ZS Associates',
       type: 'Full-time Role',
-      period: 'Jul 2021 - Jul 2024',
+      period: 'Jul 2021 - Dec 2023',
       description: 'Developed and optimized ETL workflows, automated data processes, and enhanced data reliability for analytics and reporting needs.',
       highlights: [
         'Automated client deliverable reports saving 200+ hours annually using Python and Apache Airflow.',
