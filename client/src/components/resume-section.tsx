@@ -13,7 +13,7 @@ export function ResumeSection() {
         const url = window.URL.createObjectURL(blob);
         const link = document.createElement('a');
         link.href = url;
-        link.download = 'Lakshya_Porwal_Resume.pdf';
+        link.download = '/lakshya_porwal_resume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
